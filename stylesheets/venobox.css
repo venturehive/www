@@ -1,0 +1,30 @@
+body{
+    -webkit-overflow-scrolling:touch;
+}
+
+@-webkit-keyframes playload {
+    from { background-position:    0px; }
+    to { background-position: -576px; }
+}
+@-moz-keyframes playload {
+    from { background-position:    0px; }
+    to { background-position: -576px; }
+}
+@-ms-keyframes playload {
+    from { background-position:    0px; }
+    to { background-position: -576px; }
+}
+@-o-keyframes playload {
+    from { background-position:    0px; }
+    to { background-position: -576px; }
+}
+@keyframes playload {
+    from { background-position:    0px; }
+    to { background-position: -576px; }
+}
+
+@media (max-width: 460px) {
+
+}
+
+

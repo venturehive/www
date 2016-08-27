@@ -1,0 +1,31 @@
+/* Blur Effect */
+.image-wrap {
+position:relative;
+/*height:600px;*/
+overflow:hidden
+}
+.regular, .blurred {
+position:absolute;
+width:100%;
+/*min-height: 600px;*/
+/*height: 600px;*/
+background-size: cover !important;
+-webkit-transform: translate3d(0,0,0);
+}
+
+/*.regular {opacity:1;}
+.blurred { opacity:0;}*/
+
+.image-wrap-01 .regular {background:url(../images/bg/welcome01.jpg) no-repeat center center; }
+.image-wrap-01 .blurred { background:url(../images/bg/welcome01-blur.jpg) no-repeat center center; }
+
+
+.image-wrap-02 .regular {background:url(../images/bg/welcome02.jpg) no-repeat center center; }
+.image-wrap-02 .blurred { background:url(../images/bg/welcome02-blur.jpg) no-repeat center center; }
+
+.image-wrap-03 .regular {background:url(../images/bg/welcome03.jpg) no-repeat center center; }
+.image-wrap-03 .blurred { background:url(../images/bg/welcome03-blur.jpg) no-repeat center center; }
+
+
+.image-wrap-04 .regular {background:url(../images/bg/personal01.jpg) no-repeat center center; }
+.image-wrap-04 .blurred { background:url(../images/bg/personal01-blur.jpg) no-repeat center center; }
