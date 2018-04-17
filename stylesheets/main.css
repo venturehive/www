@@ -44,6 +44,54 @@ h1,h2,h3,h4,h5,h6{
     font-weight: normal;
 }
 
+.btn-request {
+    margin: 0 auto;
+    padding: 0px 25px;
+    display: block;
+    border-radius: 14px;
+    color: #ddd;
+    background-color: #009999;
+    border-color: transparent;
+    background-image: none;
+    width: initial !important;
+    height: 50px;
+}
+
+.btn-request>a {
+    font-size: 16px;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.btn-request:hover {
+    background-color: #b1c21c;
+    border-color: #b1c21c;
+}
+
+.btn-apply {
+    margin: 0 auto;
+    padding: 0px 25px;
+    display: block;
+    border-radius: 14px;
+    color: #ddd;
+    background-color: #3498db;
+    border-color: transparent;
+    background-image: none;
+    width: initial !important;
+    height: 50px;
+}
+
+.btn-apply>a {
+    font-size: 16px;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.btn-apply:hover {
+    background-color: #0fcdff;
+    border-color: #0fcdff;
+}
+
 @media (min-width: 1024px) and (max-width: 5000px) {
     .container{
         max-width: 960px;
@@ -302,6 +350,15 @@ h1,h2,h3,h4,h5,h6{
     line-height: 21px;
     text-transform: lowercase;
 }
+/* .service-name-wrap a > button {
+    margin-top: 5px;
+    display: initial !important;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 21px;
+    text-transform: lowercase;
+} */
 .service-details {
     display: none;
     padding: 20px;
