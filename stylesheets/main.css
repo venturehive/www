@@ -34,7 +34,7 @@ a:focus {
     transition: all .4s ease-in-out;
 }
 p{
-    color: #777;
+    color: #555555;
     font-family: 'Open Sans', sans-serif; font-weight:300;
     font-size: 14px;
     line-height:21px;
@@ -454,15 +454,13 @@ h1,h2,h3,h4,h5,h6{
 }
 .team-stage p{
     font-family: 'Open Sans', sans-serif; font-weight:300;
-    font-size: 14px;
+    font-size: 11px;
     line-height:21px;
 }
-.team-stage > h6{
-    margin-bottom: 20px;
-}
+
 .team-stage > h6 > span{
     font-family: 'Montserrat', sans-serif; font-weight:400;
-    font-size: 10px;
+    font-size: 13px;
     letter-spacing: 2px;
     line-height: 17px;
     text-transform: uppercase;
