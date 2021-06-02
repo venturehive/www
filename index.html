@@ -412,10 +412,12 @@
                                     <a class="left carousel-control hidden-xs hidden-sm hidden-md"
                                        href="#carousel-example-generic" data-slide="prev" style="left:-15%">
                                         <span class="glyphicon glyphicon-chevron-left" aria-label="left-arrow"></span>
+                                        <span style="display: none">Left</span>
                                     </a>
                                     <a class="right carousel-control hidden-xs hidden-sm hidden-md"
                                        href="#carousel-example-generic" data-slide="next" style="right:-15%">
                                         <span class="glyphicon glyphicon-chevron-right" aria-label="right-arrow"></span>
+                                        <span style="display: none">Right</span>
                                     </a>
                                 </div>
                             </div>
@@ -907,9 +909,9 @@
     <script src="javascripts/main.js"></script>
     <script>
         $.backstretch([
-            "images/bg/04.jpg"
-            , "images/bg/01.jpg"
-            , "images/bg/05.jpg"
+            { url: 'images/bg/04.jpg', alt: 'Image 04' },
+            { url: 'images/bg/01.jpg', alt: 'Image 01' },
+            { url: 'images/bg/05.jpg"', alt: 'Image 05' }
         ], {duration: 8000, fade: 750});
     </script>
     <script>
